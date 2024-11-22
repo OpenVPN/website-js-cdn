@@ -1,0 +1,1 @@
+(()=>{"use strict";window.ScrollReporter={reportToId(e){window.addEventListener("scroll",(()=>{var o,l;null==(l=null==(o=document.getElementById(e))?void 0:o.contentWindow)||l.postMessage({type:"scrollY",value:window.scrollY},"*")}))}}})();
